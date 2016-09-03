@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include "linked.h"
 
-
 int main (int argc, char **argv)
 {
 	BigInt p;
@@ -37,5 +36,6 @@ int main (int argc, char **argv)
 	add(d, p, &x);
 	print(x);
 	printf("\n");
+
 	return 0;
 }

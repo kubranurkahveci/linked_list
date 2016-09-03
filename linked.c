@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include "linked.h"
 
+
 void init (BigInt *p) {
 
 	p->head = NULL;

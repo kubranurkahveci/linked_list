@@ -1,6 +1,7 @@
 #ifndef LINKED_H_
 #define LINKED_H_
 
+
 typedef struct node {
 	int data;
 	struct node *next;
